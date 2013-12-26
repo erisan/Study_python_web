@@ -1,0 +1,39 @@
+# To change this license header, choose License Headers in Project Properties.
+# To change this template file, choose Tools | Templates
+# and open the template in the editor.
+
+__author__="ts-eri.shibayama"
+__date__ ="$2013/12/17 17:00:35$"
+
+# ワインライナーでウェブサーバを起動する
+# WEBサーバがたあがればいいときはpythonのSimpleHTTPServerを使える。
+# 起動したカレントディレクトリ以下のファイルをブラウズできる
+
+# 使い方
+# python -mSimpleHTTPServer 3333
+# python -mSimpleHTTPServer [ポート番]
+# http://ホスト名:3333　でアクセスできる
+# ポート番号を指定しない場合、デフォルトは8000晩
+
+# コマンド解説
+# -mオプション Version2.4 以降で追加されたモジュールを
+# スクリプトとして実行できる
+
+# SimpleHTTPServerドキュメント
+# http://docs.python.jp/2.5/lib/module-BaseHTTPServer.html
+# BaseHTTPServerは直接使われることはなく、特定の機能をもつWebサーバを
+# 構築するために使われる。
+
+# おまけ
+# たとえば/home/user-desuyo
+# においたファイル fileAの受け渡しをしたいときに便利
+# うけたいときは
+# curl -s http://Ipaddress/fileA
+# でもってこられる
+# sオプションはcurlのプログレスを省略するオプション
+
+
+
+
+
+
